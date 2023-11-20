@@ -1,2 +1,2 @@
-# Jonatas-Severino-da-Silva
+# Jonatas Severino da Silva
 meu portifólio de desenvolvedor de softwares
