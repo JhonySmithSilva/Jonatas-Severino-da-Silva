@@ -1,49 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Meu Portfólio</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jonatas Silva</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='stilos/styles.css'>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Seu Nome</h1>
-            <p>Desenvolvedor de Software</p>
+<body>    
+    <script src="https://kit.fontawesome.com/9652babb02.js" crossorigin="anonymous"></script>     
+    <div class="container">        
+        <div class="flex flexL">
+            <div class="logo">
+                <img src="img/programador.png" alt="deer logo">
+            </div>
+            <div class="titulo">
+                <h1>Jonatas silva</h1>
+                <div id="texto"></div>
+            </div>
+        </div>        
+        <div class="flexx">
+            <div class="nav">
+                <a class="navItem" href="">Sobre</a>
+                <a class="navItem" href="">Projetos</a>
+                <a class="navItem" href="">Blog</a>
+                <a class="navItem" href="">Contato</a>
+
+                <div class="textoStatusProjeto"> 
+                    <img class="logoCone" src="img/cone.png">           
+                    <h1 id="status">Portifolio em construção</h1>   
+                    <img class="logoCone" src="img/cone.png">          
+                </div>
+
+            </div>            
+            <div class="icone">
+                <a href=""><i class="fa fa-linkedin icon Icon" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-codepen icon1 Icon" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-github icon2 Icon" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram icon3 Icon" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-facebook icon4 Icon" aria-hidden="true"></i></a>
+            </div>
         </div>
-    </header>
-
-    <section id="projects" class="container">
-        <h2>Projetos</h2>
-        <div class="project">
-            <img src="project1.jpg" alt="Projeto 1">
-            <h3>Projeto 1</h3>
-            <p>Descrição do Projeto 1.</p>
-        </div>
-
-        <div class="project">
-            <img src="project2.jpg" alt="Projeto 2">
-            <h3>Projeto 2</h3>
-            <p>Descrição do Projeto 2.</p>
-        </div>
-        <!-- Adicione mais projetos conforme necessário -->
-    </section>
-
-    <section id="skills" class="container">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <!-- Adicione mais habilidades conforme necessário -->
-        </ul>
-    </section>
-
-    <footer class="container">
-        <p>&copy; 2023 Seu Nome. Todos os direitos reservados.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    </div>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
